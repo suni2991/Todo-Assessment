@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #4C7B8B;
+    font-weight: 500;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #23486A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.accordion-header {
+    background-color: #f1f1f1;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    background-color: #fafafa;
+}
+
+.card h4 {
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.card input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+
